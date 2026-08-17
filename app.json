@@ -16,9 +16,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/logo/bg.png",
-        "backgroundImage": "./assets/logo/bg.png",
-        "monochromeImage": "./assets/logo/bg.png"
+        "foregroundImage": "./assets/logo/sensorx.png",
+        "backgroundImage": "./assets/logo/sensorx.png",
+        "monochromeImage": "./assets/logo/sensorx.png"
       },
       "permissions": [
         "android.permission.HIGH_SAMPLING_RATE_SENSOR",
@@ -76,7 +76,8 @@
           "savePhotosPermission": "Allow $(PRODUCT_NAME) to save images to your photo library.",
           "isAccessMediaLocationEnabled": true
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,
