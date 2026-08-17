@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SensorX",
-    "slug": "sensore",
+    "slug": "seonsorproject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo/sensorx.png",
@@ -88,6 +88,6 @@
         "projectId": "8e49586f-c13e-4cc5-838e-35f7e6b5a002"
       }
     },
-    "owner": "harisho3"
+    "owner": "sensorxs-team"
   }
 }
