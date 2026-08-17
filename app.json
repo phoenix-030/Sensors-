@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "map-gps",
-    "slug": "map-gps",
+    "name": "SensorX",
+    "slug": "sensore",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/logo/sensorx.png",
     "scheme": "mapgps",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "icon": "./assets/logo/sensorx.png",
       "infoPlist": {
         "NSMotionUsageDescription": "This app uses motion data to count your steps."
       }
@@ -16,9 +16,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/logo/bg.png",
+        "backgroundImage": "./assets/logo/bg.png",
+        "monochromeImage": "./assets/logo/bg.png"
       },
       "permissions": [
         "android.permission.HIGH_SAMPLING_RATE_SENSOR",
@@ -26,13 +26,22 @@
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION",
         "android.permission.READ_MEDIA_IMAGES",
-        "android.permission.WRITE_EXTERNAL_STORAGE"
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO"
       ],
-      "package": "com.harisho3.mapgps"
+      "package": "com.harisho3.SensorX"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/logo/sensorx.png"
     },
     "plugins": [
       "expo-router",
@@ -72,6 +81,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8e49586f-c13e-4cc5-838e-35f7e6b5a002"
+      }
+    },
+    "owner": "harisho3"
   }
 }
